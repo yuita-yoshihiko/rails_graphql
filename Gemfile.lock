@@ -136,6 +136,11 @@ GEM
     nokogiri (1.17.2-x86_64-linux)
       racc (~> 1.4)
     pg (1.5.9)
+    propshaft (1.1.0)
+      actionpack (>= 7.0.0)
+      activesupport (>= 7.0.0)
+      rack
+      railties (>= 7.0.0)
     psych (5.2.2)
       date
       stringio
@@ -210,6 +215,7 @@ DEPENDENCIES
   graphiql-rails
   graphql
   pg (~> 1.4)
+  propshaft (~> 1.1)
   puma (~> 6.0)
   rails (>= 7.0.8)
 

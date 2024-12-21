@@ -8,3 +8,9 @@ gem "rails", ">= 7.0.8"
 gem 'bootsnap', '>= 1.4.4', require: false
 gem 'pg', '~> 1.4'
 gem 'puma', '~> 6.0'
+gem "faker"
+gem "graphql"
+
+group :development do
+  gem "graphiql-rails"
+end
